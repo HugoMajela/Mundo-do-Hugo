@@ -1,6 +1,6 @@
 # API do site Manhuaçu Smart City
 
-Esse projeto se trata de uma API para o site de promoções e busca da região de Manhuaçu
+Esse projeto se trata de uma API para o site de promoções e busca de produtos da região de Manhuaçu
 
 ## Importações Utilizadas  
 - **Node.js** - Ambiente de execução JavaScript  
