@@ -94,3 +94,22 @@ Esse projeto se trata de uma API para o site de promoções e busca da região d
 Clone o repositório e instale as dependências:
 
 ```bash
+git clone https://github.com/HugoMajela/Mundo-do-Hugo.git
+cd Mundo-do-Hugo/
+npm install
+```
+
+# Configuração do Banco de Dados
+É necessário possui o **MongoDB** instalado e rodando localmente
+
+## Instale o MongoDB Database Tools para importar o banco de dados da API
+Baixe no site: https://www.mongodb.com/try/download/database-tools
+
+
+
+Adicionar o MongoDB Tools ao PATH (caso necessário)
+Descubra onde ele está instalado
+Adicione ao PATH:
+No Windows, abra o Painel de Controle → Sistema → Configurações Avançadas → Variáveis de Ambiente
+Encontre a variável Path, clique em Editar e adicione o caminho da pasta bin do MongoDB Tools.
+Reinicie o terminal e tente rodar
