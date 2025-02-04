@@ -116,15 +116,13 @@ npm install
 ## Instale o MongoDB Database Tools para importar o banco de dados da API
 Baixe no site: https://www.mongodb.com/try/download/database-tools
 
+Adicione o MongoDB Tools ao PATH
+
 Utilize o código abaixo para recuperar o banco de dados e adicioná-lo ao seu MongoDB:
 
 ```bash
 mongorestore --db=produtos backup/produtos/
 ```
-
-Caso dê erro adicione o MongoDB Tools ao PATH
-
-Reinicie o terminal e tente rodar novamente
 
 ## Executando a API
 Inicie o servidor:
