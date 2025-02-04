@@ -91,6 +91,8 @@ Esse projeto se trata de uma API para o site de promoções e busca de produtos 
 
 ## Instruções de uso
 
+Instale o git: https://git-scm.com/downloads
+
 Clone o repositório e instale as dependências:
 
 ```bash
