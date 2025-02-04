@@ -93,6 +93,15 @@ Esse projeto se trata de uma API para o site de promoções e busca de produtos 
 
 Instale o git: https://git-scm.com/downloads
 
+Instale o Node.js: https://nodejs.org/en/download
+
+Descubra onde eles estão instalados
+
+Adiciones ele ao PATH:
+
+No Windows, abra o Painel de Controle → Sistema → Configurações Avançadas → Variáveis de Ambiente.
+Encontre a variável Path, clique em Editar e adicione o caminho da pasta bin na pasta Git e da pasta Node.js.
+
 Clone o repositório e instale as dependências:
 
 ```bash
@@ -114,13 +123,6 @@ mongorestore --db=produtos backup/produtos/
 ```
 
 Caso dê erro adicione o MongoDB Tools ao PATH
-
-Descubra onde ele está instalado
-
-Adicione ao PATH:
-
-No Windows, abra o Painel de Controle → Sistema → Configurações Avançadas → Variáveis de Ambiente.
-Encontre a variável Path, clique em Editar e adicione o caminho da pasta bin do MongoDB Tools.
 
 Reinicie o terminal e tente rodar novamente
 
