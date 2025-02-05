@@ -111,14 +111,14 @@ npm install
 ```
 
 ## Configuração do Banco de Dados
-É necessário possui o **MongoDB** instalado e rodando localmente: https://www.mongodb.com/try/download/community
+É necessário possuir o **MongoDB** instalado e rodando localmente: https://www.mongodb.com/try/download/community
 
 ## Instale o MongoDB Database Tools para importar o banco de dados da API
 Baixe no site: https://www.mongodb.com/try/download/database-tools
 
 Adicione o MongoDB Tools ao PATH
 
-Utilize o código abaixo para recuperar o banco de dados e adicioná-lo ao seu MongoDB:
+Utilize o código abaixo para recuperar o banco de dados e adicioná-lo ao seu MongoDB via terminal:
 
 ```bash
 mongorestore --db=produtos backup/produtos/
