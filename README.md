@@ -110,7 +110,7 @@ cd Mundo-do-Hugo/
 npm install
 ```
 
-# Configuração do Banco de Dados
+## Configuração do Banco de Dados
 É necessário possui o **MongoDB** instalado e rodando localmente: https://www.mongodb.com/try/download/community
 
 ## Instale o MongoDB Database Tools para importar o banco de dados da API
